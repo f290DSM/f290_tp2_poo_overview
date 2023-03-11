@@ -22,6 +22,6 @@ public abstract class Medico extends Funcionario {
         this.crm = crm;
     }
     
-    public abstract void executarProcediemento(Paciente paciente);
+    public abstract void executarProcediemento(Paciente paciente) throws Exception;
     
 }
